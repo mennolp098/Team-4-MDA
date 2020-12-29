@@ -3,7 +3,7 @@ import { QuizQuestion } from "./quizquestion"
 export class Quiz {
 
   id: Number
-  text: String
+  name: String
   questions: Array<QuizQuestion>
 
   constructor () {
@@ -19,7 +19,7 @@ export class Quiz {
     {
       return false;
     }
-    if(!this.text || this.text.length == 0)
+    if(!this.name || this.name.length == 0)
     {
       return false;
     }

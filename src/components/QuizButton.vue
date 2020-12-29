@@ -1,7 +1,7 @@
 <template>
   <GridLayout class="btn-quiz" @loaded="onButtonLoaded" columns="auto,*" rows="*">
     <Label row="0" col="0" class="label-index" :text="'#' + item.id"/>
-    <Label row="0" col="1" class="label-text" :text="item.text"/>
+    <Label row="0" col="1" class="label-text" :text="item.name"/>
   </GridLayout>
 </template>
 

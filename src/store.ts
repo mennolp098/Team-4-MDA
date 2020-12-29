@@ -11,57 +11,49 @@ export default new Vuex.Store({
     quizzes: [
       {
         id: 0,
-        text: "First quiz",
+        name: "First quiz",
         questions: [
           {
             id: 0,
-            text: "First question",
-            answers: [
-              "First",
-              "Second",
-              "Third",
-              "Fourth"
-            ],
-            correctAnswerID: 0
+            question: "First question",
+            answerA: "First",
+            answerB: "Second",
+            answerC: "Third",
+            answerD: "Fourth",
+            validAnswer: "First"
           },
           {
             id: 1,
-            text: "Second question",
-            answers: [
-              "Fifth",
-              "Sixth",
-              "Seventh",
-              "Eighth"
-            ],
-            correctAnswerID: 3
+            question: "Second question",
+            answerA: "First",
+            answerB: "Second",
+            answerC: "Third",
+            answerD: "Fourth",
+            validAnswer: "Third"
           }
         ],
       },
       {
         id: 1,
-        text: "Second quiz",
+        name: "Second quiz",
         questions: [
           {
             id: 2,
-            text: "[Second] First question",
-            answers: [
-              "First",
-              "Second",
-              "Third",
-              "Fourth"
-            ],
-            correctAnswerID: 2
+            question: "[Second] First question",
+            answerA: "First",
+            answerB: "Second",
+            answerC: "Third",
+            answerD: "Fourth",
+            validAnswer: "Second"
           },
           {
             id: 3,
-            text: "[Second] Second question",
-            answers: [
-              "Fifth",
-              "Sixth",
-              "Seventh",
-              "Eighth"
-            ],
-            correctAnswerID: 1
+            question: "[Second] Second question",
+            answerA: "First",
+            answerB: "Second",
+            answerC: "Third",
+            answerD: "Fourth",
+            validAnswer: "Fourth"
           }
         ],
       }
